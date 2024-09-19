@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 50px;
+}
+#jokes__content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#jokes__content button{
+    text-transform: uppercase;
+    background-color: #49a6e9;
+    color: #FFF;
+    padding: 5px 8px;
+    width: auto;
+    border: none;
+    width: 230px;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+#jokes__content button:hover {
+    outline: 2px solid #49a6e9;
+    color: #49a6e9;
+    background: hsl(205, 86%, 17%);
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+img{
+    width: 200px;
+    height: auto;
+}
+footer{
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #000;
+    height: 60px;
+    font-size: 20px;
+}
+.footer__data{
+    display: flex;
+    gap: 30px;
+    margin-left: 40px;
+}
+footer a{
+    color: #FFF;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+.rs__school {
+    display: flex;
+    width: 135px;
+    height: 50px;
+    margin-right: 40px;
+}
+.rs__school svg {
+    width: 135px;
+    height: 50px;
+}
+.rs__school svg path {
+    transition: 0.5s ease;
+}
+.rs__school:hover svg path {
+    fill: #bdae82;
+    transition: 0.5s ease;
+}
+#languages{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: #49a6e9;
+    right: 10%;
+    top: 10%;
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+}
+#languages div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #49a6e9;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+.english{
+    transform: translateX(0);
+}
+.russian{
+    transform: translateX(30px);
+}
